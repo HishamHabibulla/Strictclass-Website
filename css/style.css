@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+/* =========================================================
+                    navbar part start
+   ========================================================= */
+
+.nav-link{
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #252525 !important;
+    padding: 18px 0 18px 36px !important;
+}
+
+.navbar{
+    background-color: #f6f9f9;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+
+
+/* =========================================================
+                    navbar part end
+   ========================================================= */
+
+/* =========================================================
+                    home part start
+   ========================================================= */
+
+#home-part{
+    background: url(../images/about-us-img.jpg) no-repeat center;
+    background-size: cover;
+    padding: 217px 0 0 0;
+    text-align: center;
+}
+
+#home-part h1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+}
+
+#home-part h1::after{
+    content: "";
+    background: #15a4fa;
+    height: 1px;
+    width: 85%;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#home-part p{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+#home-part a{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 67px;
+    display: inline-block;
+    background-color: transparent;
+    padding: 20px 25px;
+    border: 1px solid #15a4fa;
+    border-radius: 5px;
+}
+
+#home-part .aaa{
+    padding: 0;
+    border: none;
+}
+
+.down-icon{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 90px;
+}
+
+
+.down-icon i{
+    font-size: 22px;
+    color: #fff;
+}
+
+/* =========================================================
+                    home part end
+   ========================================================= */
+
+/* =========================================================
+                    about us part start
+   ========================================================= */
+
+#about-us-part{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: #f6f9f9;
+
+}
+
+
+#about-us-part h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #2d3950;
+
+}
+
+#about-us-part p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 25px !important;
+    padding: 0px 82px;
+    
+}
+
+
+
+/* =========================================================
+                    about us part end
+   ========================================================= */
+
+/* =========================================================
+                    service part start
+   ========================================================= */
+
+#service-part{
+    padding: 67px 0;
+    background-color: #ffffff;
+}
+
+#service-part h4{
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+#service-part p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    
+
+}
+
+
+
+
+
+/* =========================================================
+                    service part end
+   ========================================================= */
