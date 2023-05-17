@@ -184,10 +184,241 @@ a,a:hover{
 
 }
 
-
-
-
-
 /* =========================================================
                     service part end
    ========================================================= */
+
+/* =========================================================
+                    blog part start
+   ========================================================= */
+
+#blog-part{
+    background: #f6f9f9;
+    padding: 82px 0 101px 0;
+}
+
+#blog-part .text h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-bottom: 24px;
+}
+
+#blog-part .text p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #909090;
+    padding-bottom: 85px;
+}
+
+#blog-part .images{
+    position: relative;
+    transition: .6s;
+}
+
+#blog-part .images .img-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(21, 164, 250,.6);
+    transition: .6s;
+    /* opacity: 0; */
+    transform: scale(0);
+    
+}
+
+#blog-part .images:hover .img-overlay{
+    /* opacity: 1; */
+    transform: scale(1);
+}
+
+
+#blog-part .images .img-overlay i {
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #fff;
+	padding: 15px 18px;
+	font-size: 20px;
+	height: -3px;
+	width: 51px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.mb{
+    margin-top: 30px !important;
+}
+
+/* =========================================================
+                    blog part end
+   ========================================================= */
+
+/* =========================================================
+                    contact part start
+   ========================================================= */
+
+#contact-part{
+    padding: 71px 111px;
+    background: url(../images/contact-img.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#contact-part .titles h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+#contact-part .titles p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 50px;
+    
+}
+
+.name{
+    width: 100%;
+    background: transparent;
+    padding: 12px 8px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.name::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+
+#text-area::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+
+#text-area{
+    width: 100%;
+    background: transparent;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    padding: 12px 8px;
+}
+
+
+.check{
+    display: inline-block;
+}
+
+h5{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.mab{
+    margin-top: 20px;
+}
+
+.right{
+    text-align: right;
+}
+
+button{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    color: #fff;
+    padding: 1px 20px 5px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.gaihai{
+    border: 0;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+button span{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+button::-moz-focus-inner{
+    border: 1px solid #15a4fa;
+}
+
+/* =========================================================
+                    contact part end
+   ========================================================= */
+
+/* =========================================================
+                    last part start
+   ========================================================= */
+
+#last-part{
+    background: #f6f9f9;
+    line-height: 10px !important;
+}
+
+#last-part .poi{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 0 !important;
+    line-height: 100px;
+}
+
+#last-part .lkj{
+    text-align: right !important;
+    line-height: 103px;
+}
+
+
+#last-part i {
+	width: 35px;
+	height: 35px;
+	color: #fff;
+	padding: 15px 11px;
+	background: #15a4fa;
+	margin: 0 1px;
+	line-height: 8px !important;
+	text-align: center;
+}
+
+.ff{
+    display: flex;
+    align-items: center;
+}
+
+/* =========================================================
+                    last part end
+   ========================================================= */
+
+

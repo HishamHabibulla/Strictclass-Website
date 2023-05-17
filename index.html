@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
    <!--======================================================
@@ -31,16 +33,16 @@
                 <a class="nav-link" href="#about-us-part">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICE</a>
+                <a class="nav-link" href="#service-part">SERVICE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">PORTFOLIO</a>
+                <a class="nav-link" href="#service-part">PORTFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">BLOG</a>
+                <a class="nav-link" href="#blog-part">BLOG</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT US</a>
+                <a class="nav-link" href="#contact-part">CONTACT US</a>
               </li>
               
               
@@ -90,6 +92,7 @@
 
 
 <section id="about-us-part">
+  
   <div class="container">
     <div class="row">
       <div class="col-lg-12 m-auto text-center">
@@ -140,17 +143,182 @@
   </div>
 </section>
 
+<!--======================================================
+                        service part end
+       ======================================================-->
+
+
+<!--======================================================
+                        blog part start
+       ======================================================-->
+
+<section id="blog-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 m-auto">
+        <div class="text text-center">
+          <h3>Showcase your work like a pro.</h3>
+        <p> Contact me if you like my work</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col-sm-4 images mb">
+        <img class="img-fluid w-100" src="images/blog-img-1.jpg" alt="blog-img-1">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-1.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 images mb">
+        <img class="img-fluid w-100" src="images/blog-img-2.jpg" alt="blog-img-2">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-2.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 images mb">
+        <img class="img-fluid w-100" src="images/blog-img-3.jpg" alt="blog-img-3">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-3.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row gap">
+      <div class="col-lg-4 col-md-4 col-sm images mb">
+        <img class="img-fluid w-100" src="images/blog-img-4.jpg" alt="blog-img-4">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-4.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm images mb">
+        <img class="img-fluid w-100" src="images/blog-img-5.jpg" alt="blog-img-5">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-5.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm images mb">
+        <img class="img-fluid w-100" src="images/blog-img-6.jpg" alt="blog-img-6">
+        <div class="img-overlay text-center">
+          
+            <a class="my-image-links" data-gall="gallery01" href="images/blog-img-6.jpg">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!--======================================================
+                        blog part end
+       ======================================================-->
+
+
+<!--======================================================
+                        contact part start
+       ======================================================-->
+
+<section id="contact-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 m-auto titles text-center">
+        <h3>Stay with us</h3>
+        <p>We ensure quailty & support</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 m-auto text-center form-part">
+        <form name="sendNewsletterForm" action="index.html" method="POST" onsubmit="return sendValidation()">
+
+          <input name="nameInput" type="text" placeholder="Full Name" class="name">
+          <div id="nameValidationMsg" style="color:Red;display:none">Not a valid Name</div>
+
+          <input name="emailInput" type="email" placeholder="Email Address" class="name">
+          <div id="emailValidationMsg" style="color:Red;display:none">Not a valid Email</div>
+
+          <textarea name="textArea" id="text-area" cols="30" rows="5" placeholder="Message"></textarea>
+          <div id="messageValidationMsg" style="color:Red;display:none">Not a valid Message</div>
+
+        
+        <div class="row mab">
+          <div class="col-1 g-0">
+            <input type="checkbox" class="check">
+          </div>
+          <div class="col-5 g-0">
+            <h5>Subscribe Newsletter</h5>
+          </div>
+          <div class="col-6 right">
+            <input class="gaihai" type="submit" value="Send"><span></span></input>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+    </div>
+</section>
+
+
+
+<!--======================================================
+                        contact part end
+       ======================================================-->
+
+<!--======================================================
+                        last part start
+       ======================================================-->
+
+<section id="last-part">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+        <div class="ff">
+          <p class="poi">Copyritht 2014, STRICT</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-6 lkj">
+        <a href="https://www.facebook.com/watch/?ref=tab"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.google.com/search/howsearchworks/"><i class="fa-brands fa-google-plus-g"></i></a>
+        <a href="https://www.linkedin.com/login"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 
 
 
 <!--======================================================
-                        service part end
+                        last part end
        ======================================================-->
 
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
